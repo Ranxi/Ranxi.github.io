@@ -1,0 +1,12 @@
+Introduction
+In this paper, they identify another possible role of reminding: to perform credit assignment across long time spans.
+associative remainding of past events which may be triggered by the current state and added to it.
+
+Method
+Using a SAB-augmented unidirectional LSTM with the memory of every k_att th hidden state from the past,
+with a modified hard self-attention mechanism limited to selecting at most k_top memories at every timestep.
+
+
+Experiments:
+These findings support our hypothesis that at any given time step, only a few past events need to be recalled
+for the correct prediction of output of the current timestep.
